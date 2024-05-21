@@ -41,7 +41,7 @@
             Login
           </div>
           <div class="card-body">
-            <form action="login.php" method="POST">
+            <form action="display.php" method="POST">
               <div class="form-group">
                 <label for="email">Email</label>
                 <input type="email" class="form-control" id="email" name="email" required>
@@ -52,6 +52,9 @@
               </div>
               <button type="submit" class="btn btn-primary">Login</button>
             </form>
+             <div class="mt-3">
+              <p>Don't have an account yet? <a href="signup.php" class="login-link">Singup</a></p>
+            </div>
           </div>
         </div>
       </div>
