@@ -35,19 +35,19 @@
     <form method="post">
         <div class="form-group">
     <label for="exampleInputEmail1">Name</label>
-    <input type="text" class="form-control"  placeholder="Enter Your name" name="name" autocomplete="off">
+    <input type="text" class="form-control"  placeholder="Enter Your name" name="name" autocomplete="off" require>
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Email</label>
-    <input type="email" class="form-control"  placeholder="Enter your email" name="email" autocomplete="off">
+    <input type="email" class="form-control"  placeholder="Enter your email" name="email" autocomplete="off" require>
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Mobile</label>
-    <input type="text" class="form-control"  placeholder="Enter your Mobile" name="mobile" autocomplete="off">
+    <input type="text" class="form-control"  placeholder="Enter your Mobile" name="mobile" autocomplete="off" require>
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" placeholder="Password" name="password" autocomplete="off">
+    <input type="password" class="form-control" placeholder="Password" name="password" autocomplete="off" require>
   </div>
   <div class="form-check mt-3">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
